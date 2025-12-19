@@ -21,9 +21,38 @@ pnpm-debug.log*
 !.yarn/sdks
 !.yarn/versions
 
-# Vite logs files
-vite.config.js.timestamp-*
-vite.config.ts.timestamp-*
+# =========================
+# Logs
+# =========================
+logs
+*.log
+
+# =========================
+# Environment variables
+# =========================
+.env
+.env.*
+!.env.example
+
+# =========================
+# Next.js / Build output
+# =========================
+.next/
+out/
+dist/
+
+# =========================
+# Vercel
+# =========================
+.vercel/
+
+# =========================
+# Cache / Coverage
+# =========================
+.cache/
+.nyc_output/
+coverage/
+*.lcov
 
 # idea
 .idea/
