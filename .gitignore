@@ -1,6 +1,14 @@
-# Logs
-logs
-*.log
+# =========================
+# IDE / Editor
+# =========================
+.idea/
+.vscode/
+.vscode-test
+
+# =========================
+# Node / Package Managers
+# =========================
+node_modules/
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
